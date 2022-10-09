@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useRef } from "react";
-import "./contact.css";
+import "./Contact.css";
 
 const Contact = () => {
   const nameInput = useRef();
@@ -25,7 +25,7 @@ const Contact = () => {
     console.log(message);
   };
   return (
-    <Container className="ccontainer">
+    <Container className="container-contact">
       <h2
         style={{
           fontFamily: "Fira Sans Condensed, sans-serif",

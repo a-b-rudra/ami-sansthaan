@@ -1,5 +1,5 @@
 import React from "react";
-import map from "./map.png";
+import map from "./Map.png";
 
 class Reach extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class Reach extends React.Component {
       <div className="timeline spacer-map">
         <div className="container">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-7 col-bg-12">
               <div className="story-text">
                 <div className="heading">
                   <h2>Our Reach</h2>
