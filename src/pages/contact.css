@@ -1,0 +1,13 @@
+.ccontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e1eedd;
+    max-width: 100%;
+}
+
+.colsection {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}

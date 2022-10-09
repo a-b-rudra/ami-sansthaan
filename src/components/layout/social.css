@@ -1,0 +1,41 @@
+.sticky-social{
+    position:fixed;
+    top:200px;
+    left:-35px;
+    padding:0px;
+    margin:0px;
+    border-radius: 3px;
+  }
+  .social{
+    list-style:none;
+    border-radius: 3px;
+  }
+  .social li{
+    padding:8px 8px;
+    font-size:25px;
+    transition:all 0.8s ease-in-out;
+    border-radius: 3px;
+  }
+  .social li:hover{
+      margin-right:-30px;
+      box-shadow:2px 5px 10px grey;
+      border-radius: 3px;
+  }
+  .social li:hover .fa{
+      margin-left:20px;
+      border-radius: 3px;
+  }
+  .fa{
+    color:#fff;
+    transition:all 0.8s ease-in-out;
+  }
+  .fb{
+    background-color:#3C5A98;
+  }
+  .twitter{
+      background-color:#1EA1F2;
+  }
+  .yt{
+      background-color:#FA0910;
+  }
+ 

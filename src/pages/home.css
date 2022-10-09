@@ -1,0 +1,56 @@
+.content{
+    background-color: white;
+}
+
+.reach-marg {
+    margin-top: auto;
+}
+
+.timeline {
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.spacer-map {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fefbe9;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-7 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+}
+
+.story-text {
+    padding: 25px 20px 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #183a1d;
+}
+
+.bt-wr {
+    margin-top: 120px;
+}
+
+.box {
+    padding: 25px 20px 0px 0px;
+    background-color: #f6c453;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
