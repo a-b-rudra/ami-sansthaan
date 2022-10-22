@@ -81,7 +81,7 @@ const Contact = () => {
         </Col>
         <Col>
           <h4>Address here</h4>
-          <h6>Contact info here</h6>{" "}
+          <h6>Contact info here</h6>
         </Col>
       </Row>
     </Container>

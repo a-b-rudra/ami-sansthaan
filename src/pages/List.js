@@ -3,10 +3,10 @@ import React from "react";
 class List extends React.Component {
   render() {
     return (
-      <div className="box">
+      <div className="container fluid">
         <div className="row">
-          <p>
-            {" "}
+          <div className="col md-8" style={{margin:"30px"}}>
+           <p>
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -38,7 +38,8 @@ class List extends React.Component {
             1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
             reproduced below for those interested.
             Sectloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-          </p>
+           </p>
+          </div>
         </div>
       </div>
     );
