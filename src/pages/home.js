@@ -1,12 +1,12 @@
 import React from "react";
 import Social from "../components/layout/Social";
+// import cover from "./cover.JPG";
 import { Modal } from "../components/layout/Modal";
 import NavBar from "../components/layout/Navbar";
 import "./Home.css";
 import Contact from "./Contact";
 import Reach from "./Reach";
 import List from "./List";
-import CarouselFadeExample from "./Carousel";
 
 function Home() {
   return (

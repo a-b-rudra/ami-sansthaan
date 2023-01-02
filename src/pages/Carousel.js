@@ -5,7 +5,7 @@ function CarouselFadeExample(props) {
     <Carousel.Item interval={1500}>
       <img
         className="d-block w-100"
-        style={{maxHeight:"100vh", width:"100%"}}
+        style={{height:"80%", width:"80%", paddingLeft:"10%", paddingRight: "10%"}}
         src={`${imgsrc.src}`}
         alt={`Alt text ${imgsrc.caption}`}
       />

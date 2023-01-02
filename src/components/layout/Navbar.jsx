@@ -8,6 +8,7 @@ import {
   NavMenu,
 } from "./NavbarStyles";
 import "./Navbar.css";
+import cover from './cover.jpg'
 
 const NavBar = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -20,6 +21,7 @@ const NavBar = () => {
   };
 
   const myStyle={
+    backgroundImage: `url(${cover})`,
     height:'100vh',
     marginTop:'0px',
     fontSize:'50px',
