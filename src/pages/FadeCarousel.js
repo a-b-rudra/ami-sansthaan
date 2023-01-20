@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 
-function CarouselFadeExample(props) {
+const FadeCarousel = props => {
+  
   const images = props.data.map((imgsrc) => (
     <Carousel.Item interval={1500}>
       <img
@@ -17,4 +18,4 @@ function CarouselFadeExample(props) {
   return <Carousel fade>{images}</Carousel>;
 }
 
-export default CarouselFadeExample;
+export default FadeCarousel;

@@ -1,12 +1,12 @@
 import React from "react";
-import Social from "../components/layout/Social";
-// import cover from "./cover.JPG";
-import { Modal } from "../components/layout/Modal";
-import NavBar from "../components/layout/Navbar";
-import "./Home.css";
+
+import imgSrc from "../components/layout/ImageData.js"
 import Contact from "./Contact";
-import Reach from "./Reach";
+import FadeCarousel from "./FadeCarousel";
 import List from "./List";
+import Reach from "./Reach";
+
+import "./Home.css";
 
 function Home() {
   return (
@@ -38,10 +38,12 @@ function Home() {
           </p>
           {/* </div>
           </div> */}
-          
         </div>
       </div>
-      <List />
+      <div className="container-carousel">
+        <FadeCarousel data={imgSrc}/>
+        <List />
+      </div>
       <Reach />
       <Contact />
     </section>
