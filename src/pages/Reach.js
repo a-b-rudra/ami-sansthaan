@@ -1,5 +1,4 @@
 import React from "react";
-import map from "./Map.png";
 
 class Reach extends React.Component {
   render() {
@@ -37,7 +36,7 @@ class Reach extends React.Component {
               </div>
             </div>
             <div className="col-md-5">
-              <img src={map} className="bt-wr" />
+              <img src="/images/Map.png" alt="Rajasthan political map" className="bt-wr" />
             </div>
           </div>
         </div>

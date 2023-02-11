@@ -1,6 +1,6 @@
 import React from "react";
 
-import imgSrc from "../components/layout/ImageData.js"
+import {mainPage} from "../components/layout/ImageData.js"
 import Contact from "./Contact";
 import FadeCarousel from "./FadeCarousel";
 import List from "./List";
@@ -41,7 +41,7 @@ function Home() {
         </div>
       </div>
       <div className="container-carousel">
-        <FadeCarousel data={imgSrc}/>
+        <FadeCarousel data={mainPage}/>
         <List />
       </div>
       <Reach />

@@ -1,7 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import emailjs from 'emailjs-com'
 import { useRef } from "react";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
+
 import "./Contact.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contact = () => {
   const nameInput = useRef();
@@ -23,12 +25,21 @@ const Contact = () => {
       query: enteredQuery,
     };
     console.log(message);
+
+    emailjs.sendForm(
+      'dev-ami-sansthaan', 
+      'dev-ami-sansthaan', 
+      e.target,
+      '0fmIa1B1THz4SVrYt'
+      ).then(res => {
+        console.log(res)
+      }).catch(err=> console.log(err))
   };
   return (
     <Container className="container-contact">
       <h2
         style={{
-          fontFamily: "Fira Sans Condensed, sans-serif",
+          fontFamily: "Sans-serif",
           fontWeight: 700,
           fontSize: "2.3rem",
           paddingLeft: "90px",
@@ -43,6 +54,7 @@ const Contact = () => {
             <Form.Control
               type="text"
               placeholder="Name"
+              name="name"
               style={{ fontFamily: "Fira Sans Condensed, sans-serif" }}
               required
               ref={nameInput}
@@ -50,6 +62,7 @@ const Contact = () => {
             <Form.Control
               type="text"
               placeholder="Phone"
+              name="phone"
               style={{ fontFamily: "Fira Sans Condensed, sans-serif" }}
               required
               ref={phoneInput}
@@ -57,6 +70,7 @@ const Contact = () => {
             <Form.Control
               type="email"
               placeholder="Email"
+              name="email"
               style={{ fontFamily: "Fira Sans Condensed, sans-serif" }}
               required
               ref={emailInput}
@@ -70,14 +84,14 @@ const Contact = () => {
               required
               ref={queryInput}
             />
-          </Form.Group>
-          <Button
+            <Button
             type="submit"
             onClick={submitHandler}
             style={{ backgroundColor: "#183a1d" }}
           >
             Submit Query
           </Button>
+          </Form.Group>
         </Col>
         <Col>
           <h4>Address here</h4>

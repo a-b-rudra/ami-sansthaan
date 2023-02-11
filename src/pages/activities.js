@@ -1,7 +1,9 @@
 import React from 'react';
+import FadeCarousel from './FadeCarousel';
+import { listPage } from '../components/layout/ImageData';
 
 export const Activities = () => (
   <div>
-    <h2>No Match</h2>
+    <FadeCarousel data={listPage} />
   </div>
 )
