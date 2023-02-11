@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Social.css";
 
 class Social extends React.Component {
@@ -13,17 +14,17 @@ class Social extends React.Component {
         <div className="sticky-social">
           <ul className="social">
             <li className="fb">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com">
                 <i className="fa fa-facebook" aria-hidden="true" />
               </a>
             </li>
             <li className="twitter">
-              <a href="#">
+              <a href="http://www.twitter.com">
                 <i className="fa fa-twitter" aria-hidden="true" />
               </a>
             </li>
             <li className="yt">
-              <a href="#">
+              <a href="http://www.youtube.com">
                 <i className="fa fa-youtube" aria-hidden="true" />
               </a>
             </li>
