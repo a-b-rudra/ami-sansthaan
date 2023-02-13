@@ -7,7 +7,7 @@ const mainPage = [{
     caption: "Image 2"
 },
 {
-    src: "/images/Image3.jpg",
+    src: "/images/new.jpg",
     caption: "Image 3"
 }]
 

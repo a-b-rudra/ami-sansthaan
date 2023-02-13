@@ -1,18 +1,16 @@
 import Carousel from "react-bootstrap/Carousel";
+import "./FadeCarousel.css";
 
 const FadeCarousel = props => {
   
   const images = props.data.map((imgsrc) => (
-    <Carousel.Item interval={1500} key={imgsrc.caption}>
+    <Carousel.Item interval={1000} key={imgsrc.caption}>
       <img
-        className="d-block w-100"
-        style={{height:"80%", width:"80%", paddingLeft:"10%", paddingRight: "10%"}}
+        className="d-block"
+        style={{height:"40", width:"40", marginLeft:"25%", marginRight: "10%"}}
         src={`${imgsrc.src}`}
         alt={`Alt text ${imgsrc.caption}`}
       />
-      <Carousel.Caption>
-        <h3>{imgsrc.caption}</h3>
-      </Carousel.Caption>
     </Carousel.Item>
   ));
   return <Carousel fade interval={3}>{images}</Carousel>;
