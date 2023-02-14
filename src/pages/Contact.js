@@ -36,7 +36,7 @@ const Contact = () => {
       }).catch(err=> console.log(err))
   };
   return (
-    <Container className="container-contact">
+    <Container fluid className="container-contact">
       <h2
         style={{
           fontFamily: "Sans-serif",
@@ -94,8 +94,8 @@ const Contact = () => {
           </Form.Group>
         </Col>
         <Col>
-          <h4>Address here</h4>
-          <h6>Contact info here</h6>
+          <h5 style={{lineHeight: 1.4}}>251<br/> Sector-11, &nbsp;Hiran Magri <br/>Udaipur,  &nbsp;Rajasthan <br/>Pincode: 313001</h5>
+          <h5><i>Contact - 9783730979, 9414737972</i></h5>
         </Col>
       </Row>
     </Container>

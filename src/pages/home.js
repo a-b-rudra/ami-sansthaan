@@ -34,7 +34,8 @@ function Home() {
             weaker sections of the society, Eco-friendly Environment activity,
             Consumer Awareness program and programs for promotion of Rajasthani
             language through literary event and various workshop/play for
-            De-addition such as same.
+            De-addition such as same.<br/>
+            <a href="/about">Read more</a>
           </p>
           {/* </div>
           </div> */}

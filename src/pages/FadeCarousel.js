@@ -7,7 +7,7 @@ const FadeCarousel = props => {
     <Carousel.Item interval={1000} key={imgsrc.caption}>
       <img
         className="d-block"
-        style={{height:"40", width:"40", marginLeft:"25%", marginRight: "10%"}}
+        style={{height:"40%", width:"40%", marginLeft:"30%", marginRight: "10%"}}
         src={`${imgsrc.src}`}
         alt={`Alt text ${imgsrc.caption}`}
       />
