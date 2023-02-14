@@ -27,7 +27,7 @@ const NavBar = () => {
     fontSize:'50px',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    fontFamily: "Fira Sans Condensed, sans-serif",
+    fontFamily: "Georgia",
 };
   window.addEventListener("scroll", changeNavbarColor);
   return (
@@ -35,8 +35,8 @@ const NavBar = () => {
       <div style={myStyle}>
       <Nav className={colorChange ? "navbar colorChange" : "navbar"}>
         <NavContainer>
-          <NavLogo href="/">
-            Ami Sansthan
+          <NavLogo href="/" style={{fontFamily: "Georgia"}}>
+            <b>AMI &nbsp;संस्थान</b>
           </NavLogo>
           <NavMenu>
             <NavItem>
