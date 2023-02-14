@@ -12,16 +12,20 @@ const mainPage = [{
 }]
 
 const listPage = [{
-    src: "/images/Pic1.jpg",
-    caption: "Image 1"
+
+    img: "/images/Image1 2.jpg",
+    title: "Health awareness and Health Education",
+    body: "HIV/AIDS & RCH sensitization to society and PRI Health checkup and medical treatment camps De-addiction and non-alcoholism workshop/ Seminar"
 },
 {
-    src: "/images/Pic2.jpg",
-    caption: "Image 2"
+    img: "/images/Image1 2.jpg",
+    title: "Education and Child Development Programs",
+    body: "Fundamental Basic Learning with games & Education Opportunities \n for needy and deprived children especially orphan and physically challenged Facilitating Linkages (TRI) Empowering physically"
 },
 {
-    src: "/images/Pic3.jpg",
-    caption: "Image 3"
+    img: "/images/Image1 2.jpg",
+    title: "Women Empowerment Program",
+    body: "SJSRY activity Vocational training \nSHG Micro credit training program \nIncome generation and empowerment program"
 }]
 
 export {mainPage, listPage}

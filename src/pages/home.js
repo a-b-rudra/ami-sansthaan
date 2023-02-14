@@ -2,7 +2,7 @@ import React from "react";
 
 import {mainPage} from "../components/layout/ImageData.js"
 import Contact from "./Contact";
-import FadeCarousel from "./FadeCarousel";
+import FadeCarousel from "../components/layout/FadeCarousel";
 import List from "./List";
 import Reach from "./Reach";
 
