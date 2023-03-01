@@ -22,10 +22,9 @@ const ActivityList = props => {
   }
   
   return (
-    <>
+    <div>
     
     <Row xs={1} md={2} className="g-4">
-
       {props.data.map((act, index) => (
         <Col>
           <Card key={index} onClick={()=>actHandler(act)}> 
@@ -43,7 +42,7 @@ const ActivityList = props => {
     </Row> 
 
     {show?<Modal data={activity} show={show} closeModal={closeModal}/>:null}
-    </>
+    </div>
   );
 }
 

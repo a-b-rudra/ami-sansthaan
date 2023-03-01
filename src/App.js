@@ -5,7 +5,7 @@ import NavBar  from "./components/layout/Navbar";
 import Social from "./components/layout/Social";
 import { About } from "./pages/About";
 import { Activities } from "./pages/Activities";
-import { Articles } from "./pages/Articles";
+import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home.js";
 
